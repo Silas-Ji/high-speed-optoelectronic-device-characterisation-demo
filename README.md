@@ -16,7 +16,7 @@ high-speed-optoelectronic-device-characterisation-demo/
 ├── figures/
     ├── deembedding_ADS_simulation_system.png
     ├── S-parameter_example-MZM.png
-    ├── deembedding_example-MZM.png
+    ├── deembedding_example-PD.png
     └── VNA_S-parameter_concept.png
 
 Codes and data sheets are not provided in this Demo
