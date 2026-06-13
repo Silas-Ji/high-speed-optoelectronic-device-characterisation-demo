@@ -6,6 +6,22 @@ This repository presents a sanitised portfolio version of a high-speed optoelect
 
 Due to confidentiality considerations, this repository does not include original device information, raw measurement data, detailed experimental setup parameters or unpublished results. Instead, it demonstrates the general measurement workflow, data analysis methods and technical skills involved in high-frequency device characterisation.
 
+## Repository Structure
+
+```text
+high-speed-optoelectronic-device-characterisation-demo/
+│
+├── README.md
+│
+├── figures/
+    ├── deembedding_ADS_simulation_system.png
+    ├── S-parameter_example-MZM.png
+    ├── deembedding_example-MZM.png
+    └── VNA_S-parameter_concept.png
+
+Codes and data sheets are not provided in this Demo
+```
+
 ## Project Background
 
 High-speed optoelectronic devices require accurate frequency response characterisation to evaluate their performance in optical communication, photonic integrated circuits and high-speed sensing systems. However, measured RF responses can be affected by cables, probes, connectors, pads and other parasitic effects in the measurement system.
@@ -60,27 +76,6 @@ Example tasks include:
 * S-parameter-style response plotting
 * Calibration and de-embedding concepts
 * High-speed optoelectronic device characterisation
-
-## Repository Structure
-
-```text
-high-speed-device-characterisation-demo/
-│
-├── README.md
-│
-├── figures/
-│   ├── workflow_overview.png
-│   ├── sparameter_example.png
-│   └── deembedding_concept.png
-│
-├── scripts/
-│   ├── plot_sparameters.py
-│   ├── bandwidth_extraction_demo.py
-│   └── deembedding_demo.m
-│
-└── sample_data/
-    └── synthetic_frequency_response.csv
-```
 
 ## Example Workflow
 
